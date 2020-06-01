@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.text-roboto
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.text-opens
+{
+    font-family: "Open Sans", sans-serif;
+}
+
+.cararra
+{
+    color: #F2F4F2;
+}
+
+.bg-cararra
+{
+    background-color: #F2F4F2;
+}
+
+.manatee
+{
+    color: #9698A7;
+}
+
+.bg-manatee
+{
+    background-color: #9698A7;
+}
+
+.saffron
+{
+    color: #F7BE28;
+}
+
+.bg-saffron
+{
+    background-color: #F7BE28;
+}
+
+.cardinal
+{
+    color: #CB1E1E;
+}
+
+.bg-cardinal
+{
+    background-color: #CB1E1E;
+}
+
+.shark
+{
+    color: #171718;
+}
+
+.bg-shark
+{
+    background-color: #171718;
+}
