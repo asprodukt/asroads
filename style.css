@@ -1,62 +1,156 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-.text-roboto
-{
+html {
+    scroll-behavior: smooth;
+}
+
+.text-roboto {
     font-family: "Roboto", sans-serif;
 }
 
-.text-opens
-{
+.text-opens {
     font-family: "Open Sans", sans-serif;
 }
 
-.cararra
-{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.cararra {
     color: #F2F4F2;
 }
 
-.bg-cararra
-{
+.bg-cararra {
     background-color: #F2F4F2;
 }
 
-.manatee
-{
+.manatee {
     color: #9698A7;
 }
 
-.bg-manatee
-{
+.bg-manatee {
     background-color: #9698A7;
 }
 
-.saffron
-{
+.saffron {
     color: #F7BE28;
 }
 
-.bg-saffron
-{
+.bg-saffron {
     background-color: #F7BE28;
 }
 
-.cardinal
-{
+.btn-saffron {
+    background-color: #F7BE28;
+    color: white;
+}
+
+.btn-saffron:hover {
+    background-color: #f6b70f;
+    color: white;
+}
+
+.cardinal {
     color: #CB1E1E;
 }
 
-.bg-cardinal
-{
+.bg-cardinal {
     background-color: #CB1E1E;
 }
 
-.shark
-{
+.btn-cardinal {
+    background-color: #CB1E1E;
+    color: white;
+}
+
+.btn-cardinal:hover {
+    background-color: rgba(181, 51, 51, 1);
+    color: white;
+}
+
+.shark {
     color: #171718;
 }
 
-.bg-shark
-{
+.bg-shark {
     background-color: #171718;
 }
+
+.link {
+    color: #278ef0;
+}
+
+.accent-light {
+    color: #ccc
+}
+
+.accent-dark {
+    color: #222;
+}
+
+.nv-bg {
+    background-color: transparent !important;
+    transition: 0.5s ease-in-out;
+}
+
+.nv-bg.scrolled {
+    background-color: #171718 !important;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url(assets/imgs/collection-of-construction-safety-helmet-38070.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.gradient-brand-color {
+    background: rgb(203, 30, 30);
+    background: -moz-linear-gradient(0deg, rgba(203, 30, 30, 1) 0%, rgba(181, 51, 51, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(203, 30, 30, 1) 0%, rgba(181, 51, 51, 1) 100%);
+    background: linear-gradient(0deg, rgba(203, 30, 30, 1) 0%, rgba(181, 51, 51, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cb1e1e", endColorstr="#b53333", GradientType=1);
+    color: #fff;
+}
+
+.contact-info__list span.position-absolute {
+    left: 0
+}
+
+.z-index-101 {
+    z-index: 101;
+}
+
+.list-style--none {
+    list-style: none;
+}
+
+.shadow-lg,
+.shadow-lg--on-hover:hover {
+    box-shadow: 0 1rem 3rem rgba(132, 138, 163, 0.1) !important;
+}
+
+footer h5 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.remove-link {
+    text-decoration: none;
+    color: white;
+}
+
+.remove-link:hover {
+    color: white;
+}
+

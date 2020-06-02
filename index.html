@@ -6,53 +6,202 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/e80acffa2c.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css"/>
+        crossorigin="anonymous" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>AS Roads</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- start navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-shark">
+    <nav class="navbar navbar-expand navbar-dark nv-bg fixed-top">
         <a class="navbar-brand text-roboto" href="#">AS Roads</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
-            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav ml-auto text-roboto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <div class="ml-auto" id="navbarColor01">
+            <ul class="navbar-nav ml-auto text-roboto" style="font-size: 20px;">
+                <li class="nav-item">
+                    <a class="nav-link" href="#hero"><i class="fas fa-home"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#about"><i class="fas fa-users"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#contact"><i class="fas fa-phone"></i></a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- end navbar -->
 
+    <!-- hero -->
+    <div class="container-fluid d-flex w-100" id="hero">
+        <div class="text-center w-75 mx-auto my-auto">
+            <h1 style="font-size: 100px; color: white;">Krótki Tytuł</h1>
+            <p class="accent-light" style="font-size: 20px;">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book.</p>
+            <p>
+                <a href="#" class="link" style="font-size: 25px;">Kontakt ></a>
+            </p>
+        </div>
+    </div>
+    <!-- end hero -->
+
+    <!-- about -->
+    <!-- end about -->
+
+    <!-- services -->
+    <div class="container">
+
+    </div>
+    <!-- end services -->
+
+    <!-- contact -->
+    <div class="container-fluid" id="contact">
+        <div class="contact__wrapper shadow-lg mt-n9">
+            <div class="row no-gutters">
+                <div class="col-lg-5 contact-info__wrapper gradient-brand-color p-5 order-lg-2">
+                    <h3 class="color--white mb-5">Skontaktuj się</h3>
+
+                    <ul class="contact-info__list list-style--none position-relative z-index-101">
+                        <li class="mb-4 pl-4">
+                            <span class="position-absolute"><i class="fas fa-envelope"></i></span>
+                            <a href="mailto:kontakt@asroads.com" class="remove-link">kontakt@asroads.com</a>
+                        </li>
+                        <li class="mb-4 pl-4">
+                            <span class="position-absolute"><i class="fas fa-phone"></i></span><a
+                                href="tel:+48 500 474 694" class="remove-link">+48 500 474 694</a>
+                        </li>
+                        <li class="mb-4 pl-4">
+                            <span class="position-absolute"><i class="fas fa-map-marker-alt"></i></span> AS Produkt Inc.
+                            <br> 59-220, Legnica
+                            <br> ul. Gwiezdna 8
+
+                            <div class="mt-3">
+                                <a href="https://goo.gl/maps/GaFjGhnR6SCnnxjy7" target="_blank"
+                                    class="text-link link--right-icon text-white">Dojedź do nas <i
+                                        class="link__icon fa fa-directions"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-7 contact-form__wrapper p-5 order-lg-1">
+                    <form action="scripts/formHandler.php" class="contact-form form-validate" novalidate="novalidate"
+                        method="POST">
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <label class="required-field" for="firstName">Imię</label>
+                                    <input type="text" class="form-control" id="firstName" name="firstName"
+                                        placeholder="Jan">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <label for="lastName">Nazwisko</label>
+                                    <input type="text" class="form-control" id="lastName" name="lastName"
+                                        placeholder="Kowalski">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <label class="required-field" for="email">Email</label>
+                                    <input type="text" class="form-control" id="email" name="email"
+                                        placeholder="jan.kowalski@mail.com">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group">
+                                    <label for="phone">Numer Telefonu</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone"
+                                        placeholder="+48 123 456 789">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 mb-3">
+                                <div class="form-group">
+                                    <label for="topic">Temat</label>
+                                    <input type="tel" class="form-control" id="topic" name="topic" placeholder="...">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 mb-3">
+                                <div class="form-group">
+                                    <label class="required-field" for="message">Wiadomość</label>
+                                    <textarea class="form-control" id="message" name="message" rows="4"
+                                        placeholder="Dzień dobry...."></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 mb-3">
+                                <button type="submit" name="submit" class="btn btn-cardinal">Wyślij</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <!-- End Contact Form Wrapper -->
+
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- footer -->
+    <footer class="pt-4 pt-md-5 container-fluid bg-shark">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="" alt=" LOGO ASROADS" width="24" height="24">
+                <small class="d-block mb-3 text-muted">© 2020</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Menu</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#hero">Home</a></li>
+                    <li><a class="text-muted" href="#about">O nas</a></li>
+                    <li><a class="text-muted" href="#">Usługi</a></li>
+                    <li><a class="text-muted" href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Social</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Facebook</a></li>
+                    <li><a class="text-muted" href="#">Instagram</a></li>
+                    <li><a class="text-muted" href="#">Pinterest</a></li>
+                    <li><a class="text-muted" href="#">Youtube</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>AS Group</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">AS Produkt</a></li>
+                    <li><a class="text-muted" href="#">AS Construcions</a></li>
+                    <li><a class="text-muted" href="#">Asensosa</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
     <!-- scripts -->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
+    <script src="scripts/navbarScroll.js" lang="js"></script>
 </body>
 
 </html>
