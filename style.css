@@ -42,6 +42,16 @@ p {
     background-color: #9698A7;
 }
 
+.btn-manatee {
+    background-color: #9698A7;
+    color: white;
+}
+
+.btn-manatee:hover {
+    background-color: rgb(119, 121, 133);
+    color: white;
+}
+
 .saffron {
     color: #F7BE28;
 }
@@ -52,12 +62,12 @@ p {
 
 .btn-saffron {
     background-color: #F7BE28;
-    color: white;
+    color: #303030;
 }
 
 .btn-saffron:hover {
-    background-color: #f6b70f;
-    color: white;
+    background-color: #daa30d;
+    color: black;
 }
 
 .cardinal {
@@ -74,7 +84,7 @@ p {
 }
 
 .btn-cardinal:hover {
-    background-color: rgba(181, 51, 51, 1);
+    background-color: rgb(149, 22, 22);
     color: white;
 }
 
@@ -154,3 +164,6 @@ footer h5 {
     color: white;
 }
 
+#services {
+    height: 100vh;
+}
