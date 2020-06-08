@@ -170,7 +170,6 @@ footer h5 {
 
 #services .karta p {
     min-height: 70px;
-
 }
 
 #services .karta:hover {
@@ -211,14 +210,40 @@ footer h5 {
     min-height: 300px;
 }
 
+#services h1 {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+
+    #offer h1 {
+        text-align: center;
+        font-size: 38px;
+    }
+
+    #offer li {
+        color: rgb(201, 201, 201);
+        font-size: 17px;
+    }
+
+    #offer-img {
+        margin-top: 30px;
+    }
+
+    #services h1 {
+        font-size: 50px;
+    }
+
+}
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
 
     #hero {
-        height: 70vh;
+        height: 80vh;
     }
 
     #hero h1 {
@@ -226,7 +251,11 @@ footer h5 {
     }
 
     #hero p {
-        font-size: 20px;
+        font-size: 30px;
+    }
+
+    #about-img {
+        margin-top: 30px;
     }
 }
 
