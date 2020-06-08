@@ -114,12 +114,12 @@ p {
 }
 
 .nv-bg.scrolled {
-    background-color: #171718 !important;
+    background-color: #171718fd !important;
 }
 
 #hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-            rgba(0, 0, 0, 0.6)), url(assets/imgs/collection-of-construction-safety-helmet-38070.jpg);
+            rgba(0, 0, 0, 0.6)), url(assets/imgs/street-building-construction-industry-2489.jpg);
     height: 100vh;
     background-size: cover;
 }
@@ -164,6 +164,77 @@ footer h5 {
     color: white;
 }
 
-#services {
-    height: 100vh;
+#services .karta {
+    transition: 0.5s ease;
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
 }
+
+#services .karta p {
+    min-height: 70px;
+
+}
+
+#services .karta:hover {
+    transition: 0.5s ease;
+    color: #CB1E1E;
+}
+
+#offer h1 {
+    color: white;
+}
+
+#offer li {
+    color: rgb(201, 201, 201);
+    font-size: 22px;
+}
+
+#offer-img {
+    background-image: url(assets/imgs/usluga1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+#hero h1 {
+    font-size: 90px;
+    color: white;
+}
+
+#hero p {
+    font-size: 40px;
+}
+
+
+#about-img {
+    background-image: url(assets/imgs/collection-of-construction-safety-helmet-38070.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    #hero {
+        height: 70vh;
+    }
+
+    #hero h1 {
+        font-size: 50px;
+    }
+
+    #hero p {
+        font-size: 20px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
