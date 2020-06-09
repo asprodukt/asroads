@@ -202,6 +202,10 @@ footer h5 {
     font-size: 40px;
 }
 
+#offer ul {
+    text-align: left;
+}
+
 
 #about-img {
     background-image: url(./assets/imgs/collection-of-construction-safety-helmet-38070.jpg);
@@ -221,12 +225,12 @@ footer h5 {
 
     #offer h1 {
         text-align: center;
-        font-size: 38px;
+        font-size: 32px;
     }
 
     #offer li {
         color: rgb(201, 201, 201);
-        font-size: 17px;
+        font-size: 20px;
     }
 
     #offer-img {
@@ -257,10 +261,28 @@ footer h5 {
     #about-img {
         margin-top: 30px;
     }
+
+    #offer ul {
+        text-align: left !important;
+    }
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+    #offer h1 {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    #offer ul {
+        text-align: center;
+    }
+
+    #offer li {
+        margin-top: 10px;
+    }
+}
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {}

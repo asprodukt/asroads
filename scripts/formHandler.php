@@ -8,7 +8,7 @@
         $topic = $_POST['topic'];
         $message = $_POST['message'];
     
-        $to = "kamil.koziol@asprodukt.com";
+        $to = "panpouran@gmail.com";
     
         $email_body = 
             "Imię: $fname\n".
