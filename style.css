@@ -1,13 +1,48 @@
+#about-img {
+  background-image: url(./assets/imgs/usluga2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+@media (max-width: 767px) {
+  #about-img {
+    margin-top: 30px;
+  }
+}
+.gradient-brand-color {
+  background: #cb1e1e;
+  background: -moz-linear-gradient(0deg, #cb1e1e 0%, #b53333 100%);
+  background: -webkit-linear-gradient(0deg, #cb1e1e 0%, #b53333 100%);
+  background: linear-gradient(0deg, #cb1e1e 0%, #b53333 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cb1e1e", endColorstr="#b53333", GradientType=1);
+  color: #fff;
+}
+
+.contact-info__list span.position-absolute {
+  left: 0;
+}
+
+.z-index-101 {
+  z-index: 101;
+}
+
+.list-style--none {
+  list-style: none;
+}
+
+.shadow-lg,
+.shadow-lg--on-hover:hover {
+  box-shadow: 0 1rem 3rem rgba(132, 138, 163, 0.1) !important;
+}
+
+footer h5 {
+  color: white;
+  font-family: "Roboto";
+}
+
 html {
-    scroll-behavior: smooth;
-}
-
-.text-roboto {
-    font-family: "Roboto", sans-serif;
-}
-
-.text-opens {
-    font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -16,273 +51,227 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
 }
 
 p {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open sans";
 }
 
-.cararra {
-    color: #F2F4F2;
+.text-roboto {
+  font-family: "Roboto";
 }
 
-.bg-cararra {
-    background-color: #F2F4F2;
-}
-
-.manatee {
-    color: #9698A7;
-}
-
-.bg-manatee {
-    background-color: #9698A7;
-}
-
-.btn-manatee {
-    background-color: #9698A7;
-    color: white;
-}
-
-.btn-manatee:hover {
-    background-color: rgb(119, 121, 133);
-    color: white;
-}
-
-.saffron {
-    color: #F7BE28;
-}
-
-.bg-saffron {
-    background-color: #F7BE28;
-}
-
-.btn-saffron {
-    background-color: #F7BE28;
-    color: #303030;
-}
-
-.btn-saffron:hover {
-    background-color: #daa30d;
-    color: black;
-}
-
-.cardinal {
-    color: #CB1E1E;
-}
-
-.bg-cardinal {
-    background-color: #CB1E1E;
-}
-
-.btn-cardinal {
-    background-color: #CB1E1E;
-    color: white;
-}
-
-.btn-cardinal:hover {
-    background-color: rgb(149, 22, 22);
-    color: white;
-}
-
-.shark {
-    color: #171718;
-}
-
-.bg-shark {
-    background-color: #171718;
-}
-
-.link {
-    color: #278ef0;
+.text-opens {
+  font-family: "Open sans";
 }
 
 .accent-light {
-    color: #ccc
+  color: #ccc;
 }
 
 .accent-dark {
-    color: #222;
-}
-
-.nv-bg {
-    background-color: transparent !important;
-    transition: 0.5s ease-in-out;
-}
-
-.nv-bg.scrolled {
-    background-color: #171718fd !important;
-}
-
-#hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-            rgba(0, 0, 0, 0.6)), url(assets/imgs/street-building-construction-industry-2489.jpg);
-    height: 100vh;
-    background-size: cover;
-}
-
-.gradient-brand-color {
-    background: rgb(203, 30, 30);
-    background: -moz-linear-gradient(0deg, rgba(203, 30, 30, 1) 0%, rgba(181, 51, 51, 1) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(203, 30, 30, 1) 0%, rgba(181, 51, 51, 1) 100%);
-    background: linear-gradient(0deg, rgba(203, 30, 30, 1) 0%, rgba(181, 51, 51, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cb1e1e", endColorstr="#b53333", GradientType=1);
-    color: #fff;
-}
-
-.contact-info__list span.position-absolute {
-    left: 0
-}
-
-.z-index-101 {
-    z-index: 101;
-}
-
-.list-style--none {
-    list-style: none;
-}
-
-.shadow-lg,
-.shadow-lg--on-hover:hover {
-    box-shadow: 0 1rem 3rem rgba(132, 138, 163, 0.1) !important;
-}
-
-footer h5 {
-    color: white;
-    font-family: "Roboto", sans-serif;
+  color: #222;
 }
 
 .remove-link {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-
 .remove-link:hover {
-    color: white;
+  color: white;
 }
 
-#services .karta {
-    transition: 0.5s ease;
-    background-color: white;
-    margin-top: 10px;
-    text-align: center;
+.text-cararra {
+  color: #F2F4F2;
 }
 
-#services .karta p {
-    min-height: 70px;
+.bg-cararra {
+  background-color: #F2F4F2;
 }
 
-#services .karta:hover {
-    transition: 0.5s ease;
-    color: #CB1E1E;
+.btn-cararra {
+  background-color: #F2F4F2;
+  color: black;
+}
+.btn-cararra:hover {
+  color: black;
+  background-color: #c9d1c9;
+}
+
+.text-manatee {
+  color: #9698A7;
+}
+
+.bg-manatee {
+  background-color: #9698A7;
+}
+
+.btn-manatee {
+  background-color: #9698A7;
+  color: white;
+}
+.btn-manatee:hover {
+  color: white;
+  background-color: #6e7083;
+}
+
+.text-saffron {
+  color: #F7BE28;
+}
+
+.bg-saffron {
+  background-color: #F7BE28;
+}
+
+.btn-saffron {
+  background-color: #F7BE28;
+  color: white;
+}
+.btn-saffron:hover {
+  color: white;
+  background-color: #cb9508;
+}
+
+.text-cardinal {
+  color: #CB1E1E;
+}
+
+.bg-cardinal {
+  background-color: #CB1E1E;
+}
+
+.btn-cardinal {
+  background-color: #CB1E1E;
+  color: white;
+}
+.btn-cardinal:hover {
+  color: white;
+  background-color: #881414;
+}
+
+.text-shark {
+  color: #171718;
+}
+
+.bg-shark {
+  background-color: #171718;
+}
+
+.btn-shark {
+  background-color: #171718;
+  color: white;
+}
+.btn-shark:hover {
+  color: white;
+  background-color: black;
+}
+
+#hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/imgs/street-building-construction-industry-2489.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+#hero h1 {
+  font-size: 90px;
+  color: white;
+}
+#hero p {
+  font-size: 40px;
+}
+
+@media (max-width: 767px) {
+  #hero {
+    height: 80vh;
+  }
+  #hero h1 {
+    font-size: 50px;
+  }
+  #hero p {
+    font-size: 30px;
+  }
+}
+.nv-bg {
+  background-color: transparent !important;
+  transition: 0.5s ease-in-out;
+}
+.nv-bg.scrolled {
+  background-color: #171718 !important;
 }
 
 #offer h1 {
-    color: white;
+  color: white;
 }
-
 #offer li {
-    color: rgb(201, 201, 201);
-    font-size: 22px;
+  color: #c9c9c9;
+  font-size: 22px;
+}
+#offer ul {
+  text-align: left;
 }
 
 #offer-img {
-    background-image: url(./assets/imgs/usluga1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
+  background-image: url(./assets/imgs/usluga1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
 }
 
-#hero h1 {
-    font-size: 90px;
-    color: white;
-}
-
-#hero p {
-    font-size: 40px;
-}
-
-#offer ul {
-    text-align: left;
-}
-
-
-#about-img {
-    background-image: url(./assets/imgs/usluga2.jpg );
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
-}
-
-#services h1 {
+@media (max-width: 575px) {
+  #offer h1 {
     text-align: center;
-    font-size: 70px;
-    color: white;
+    font-size: 32px;
+  }
+  #offer li {
+    color: #c9c9c9;
+    font-size: 20px;
+  }
+
+  #offer-img {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #offer ul {
+    text-align: left !important;
+  }
+}
+@media (max-width: 991px) {
+  #offer h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  #offer ul {
+    text-align: center;
+  }
+  #offer li {
+    margin-top: 10px;
+  }
+}
+#services .karta {
+  transition: 0.5s ease;
+  background-color: white;
+  margin-top: 10px;
+  text-align: center;
+}
+#services .karta p {
+  min-height: 70px;
+}
+#services .karta:hover {
+  transition: 0.5s ease;
+  color: #CB1E1E;
+}
+#services h1 {
+  text-align: center;
+  font-size: 70px;
+  color: white;
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-
-    #offer h1 {
-        text-align: center;
-        font-size: 32px;
-    }
-
-    #offer li {
-        color: rgb(201, 201, 201);
-        font-size: 20px;
-    }
-
-    #offer-img {
-        margin-top: 30px;
-    }
-
-    #services h1 {
-        font-size: 50px;
-    }
-
+@media (max-width: 575px) {
+  #services h1 {
+    font-size: 50px;
+  }
 }
 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-
-    #hero {
-        height: 80vh;
-    }
-
-    #hero h1 {
-        font-size: 50px;
-    }
-
-    #hero p {
-        font-size: 30px;
-    }
-
-    #about-img {
-        margin-top: 30px;
-    }
-
-    #offer ul {
-        text-align: left !important;
-    }
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-    #offer h1 {
-        text-align: center;
-        font-size: 36px;
-        margin-bottom: 30px;
-    }
-
-    #offer ul {
-        text-align: center;
-    }
-
-    #offer li {
-        margin-top: 10px;
-    }
-}
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {}
+/*# sourceMappingURL=style.css.map */
