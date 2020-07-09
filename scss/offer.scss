@@ -1,0 +1,66 @@
+@import "media_queries";
+@import "variables";
+
+#offer {
+    h1 {
+        color:white;
+    }
+    li {
+        color: rgb(201, 201, 201);
+        font-size: 22px;
+    }
+    ul {
+        text-align: left;
+    }
+}
+
+#offer-img {
+    background-image: url(./assets/imgs/usluga1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+@include mqbelow(xs) {
+    #offer {
+        h1 {
+            text-align: center;
+            font-size: 32px;
+        }
+
+        li {
+            color: rgb(201, 201, 201);
+            font-size: 20px;
+        }
+    }
+
+    #offer-img {
+        margin-top: 30px;
+    }
+}
+
+@include mqbelow(sm) {
+    #offer {
+        ul {
+            text-align: left !important;
+        }
+    }
+}
+
+@include mqbelow(md) {
+    #offer {
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            margin-top: 10px;
+        }
+    }
+}

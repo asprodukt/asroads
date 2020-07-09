@@ -1,0 +1,11 @@
+@import "variables";
+@import "media_queries";
+
+.nv-bg {
+  background-color: transparent !important;
+  transition: 0.5s ease-in-out;
+
+  &.scrolled {
+    background-color: $shark !important;
+  }
+}

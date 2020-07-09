@@ -1,0 +1,64 @@
+@import "variables";
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $title;
+}
+
+p {
+    font-family: $text;
+}
+
+.text-roboto {
+    font-family: $title;
+}
+
+.text-opens {
+    font-family: $text;
+}
+
+.accent-light {
+    color: #ccc
+}
+
+.accent-dark {
+    color: #222;
+}
+
+.remove-link {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        color:white;
+    }
+}
+
+@each $name, $color, $btn_color in $colormap {
+    .text-#{$name} {
+        color: $color
+    }
+
+    .bg-#{$name} {
+        background-color: $color;
+    }
+
+    .btn-#{$name} {
+        background-color: $color;
+        color: $btn_color;
+
+        &:hover{
+            color: $btn_color;
+            background-color: darken($color, 15%)
+        }
+    }
+
+}

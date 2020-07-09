@@ -1,0 +1,15 @@
+@import "media_queries";
+@import "variables";
+
+#about-img {
+    background-image: url(./assets/imgs/usluga2.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+@include mqbelow(sm) {
+    #about-img {
+        margin-top: 30px;
+    }
+}
