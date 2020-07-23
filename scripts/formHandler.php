@@ -8,7 +8,7 @@
         $topic = $_POST['topic'];
         $message = $_POST['message'];
     
-        $to = "kontakt@asroads.com";
+        $to = "kontakt@asroads.pl";
     
         $email_body = 
             "Imię: $fname\n".
@@ -17,7 +17,7 @@
             "Wiadomość: $message";
         
         $headers = "Od: asroads.com $mail";
-        mail($to, $topic, $message, $headers);
+        mail($to, $topic, $email_body, $headers);
         header("Location: ../index.html");
     }
 ?>

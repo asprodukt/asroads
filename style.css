@@ -258,9 +258,18 @@ p {
 #services .karta p {
   min-height: 70px;
 }
-#services .karta:hover {
-  transition: 0.5s ease;
+#services .karta .arrow {
+  color: black;
+  margin-bottom: 20px;
+}
+#services .karta .arrow:hover {
   color: #CB1E1E;
+}
+#services .karta .strzalka {
+  font-size: 20px;
+}
+#services .karta div p {
+  text-align: left;
 }
 #services h1 {
   text-align: center;
@@ -272,6 +281,27 @@ p {
   #services h1 {
     font-size: 50px;
   }
+}
+#page-services {
+  margin-top: 62px;
+  background-color: #171718;
+  padding: 0 75px 75px 75px;
+}
+#page-services h1 {
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 45px;
+}
+#page-services p {
+  color: #F2F4F2;
+  margin-bottom: 40px;
+}
+#page-services img {
+  width: 50%;
+  margin-bottom: 30px;
+}
+#page-services a {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

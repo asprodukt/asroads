@@ -3,7 +3,7 @@ $(window).scroll(
         $('nav').toggleClass("scrolled", $(this).scrollTop() > 200);
     })
 
-$('a[href*="#"]').on('click', function (e) {
+$('a[href*="navbar"]').on('click', function (e) {
     $('html,body').animate({
         scrollTop: $($(this).attr('href')).offset().top - 60
     }, 500);

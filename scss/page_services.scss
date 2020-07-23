@@ -1,0 +1,29 @@
+@import "media_queries";
+@import "variables";
+
+#page-services {
+    margin-top: 62px;
+    background-color: $shark;
+
+    h1 {
+        color: white;
+        margin-bottom: 15px;
+        margin-top: 45px;
+    }
+
+    p {
+        color: $cararra;
+        margin-bottom: 40px;
+    }
+
+    img {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    padding: 0 75px 75px 75px;
+}

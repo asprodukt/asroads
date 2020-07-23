@@ -12,9 +12,23 @@
             min-height: 70px;
         }
 
-        &:hover {
-            transition: 0.5s ease;
+        .arrow {
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .arrow:hover {
             color: $cardinal;
+        }
+
+        .strzalka {
+            font-size: 20px;
+        }
+
+        div {
+            p {
+                text-align: left;
+            }
         }
     }
 
