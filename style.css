@@ -304,4 +304,32 @@ p {
   font-size: 20px;
 }
 
+@media (max-width: 575px) {
+  #page-services h1 {
+    font-size: 20px;
+  }
+  #page-services p {
+    font-size: 13px;
+  }
+  #page-services img {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  #page-services h1 {
+    font-size: 20px;
+  }
+  #page-services p {
+    font-size: 13px;
+  }
+  #page-services img {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  #page-services img {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

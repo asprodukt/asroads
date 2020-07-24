@@ -27,3 +27,42 @@
 
     padding: 0 75px 75px 75px;
 }
+
+@include mqbelow(xs) {
+    #page-services {
+        h1 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@include mqbelow(sm) {
+    #page-services {
+        h1 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+@include mqbelow(md) {
+    #page-services {
+        img {
+            width: 100%;
+        }
+    }
+}
