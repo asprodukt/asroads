@@ -305,6 +305,9 @@ p {
 }
 
 @media (max-width: 575px) {
+  #page-services {
+    padding: 0 20px 20px 20px;
+  }
   #page-services h1 {
     font-size: 20px;
   }
@@ -316,6 +319,9 @@ p {
   }
 }
 @media (max-width: 767px) {
+  #page-services {
+    padding: 0 20px 20px 20px;
+  }
   #page-services h1 {
     font-size: 20px;
   }
@@ -327,6 +333,9 @@ p {
   }
 }
 @media (max-width: 991px) {
+  #page-services {
+    padding: 0 20px 20px 20px;
+  }
   #page-services img {
     width: 100%;
   }
