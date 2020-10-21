@@ -7,6 +7,14 @@
         $phone = $_POST['phone'];
         $topic = $_POST['topic'];
         $message = $_POST['message'];
+
+        if(strlen($fname) < 3 || strlen($lname) < 3 || strlen($topic) < 2 || strlen($message) < 2) {
+            header("Location: index.html");
+        }
+
+        if(!filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+            header("Location: index.html");
+        }
     
         $to = "kontakt@asroads.pl";
     

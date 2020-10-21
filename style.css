@@ -168,7 +168,7 @@ p {
 }
 
 #hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/imgs/street-building-construction-industry-2489.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/imgs/hero.jpg);
   height: 100vh;
   background-size: cover;
 }
